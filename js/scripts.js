@@ -15,6 +15,9 @@ $(function() {
 
 $(function() {
     $('#reserveButton').click(function(){
-        keyboard: false
+        $('#reserveModal').modal('show');
+    });
+    $('#loginButton').click(function(){
+        $('#loginModal').modal('show');
     });
 });

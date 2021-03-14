@@ -65,14 +65,16 @@ header {
 }
 
 #reserveModal {
-    modal-header{
+    .modal-header{
       background-color: $color-teal;
-      color: white; } 
-  }
+      color: white; 
+    } 
+}
   
-  #loginModal {
-    modal-login{
+#loginModal {
+    .modal-header{
       background-color: $color-mid;
-      color: white; }
-  }
+      color: white; 
+    }
+}
   
